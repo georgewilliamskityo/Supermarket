@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Costco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-2/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="pngs/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="pngs/logo.png" alt=""></a>
+        </div>
+        <ul id="Menuitems" style="max-height: 0px;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fas fa-user unshow"></i></a></li>
+            <li><a href="cart.html"><i class="fas fa-cart-shopping unshow"></i></a></li>
+        </ul>
+        <div class="grpic">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i class="fas fa-bars menu-icon" onclick="menutoggle()"></i>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <!------------------------- SINGLE PRODUCT ------------------------->
+    <div class="single-product">
+        <div class="single-row">
+            <div class="col-6">
+                <img src="./jpegs_only/sneakers_adidas.1.jpeg" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="./jpegs_only/sneakers_adidas.1.jpeg" width="100%" height="150px" class="SmallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./jpegs_only/sneakers_adidas.3.jpeg" width="100%" height="150px" class="SmallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./jpegs_only/sneakers_adidas.5.jpeg" width="100%" height="150px" class="SmallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./jpegs_only/sneakers_adidas.4.jpeg" width="100%" height="150px" class="SmallImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Category / Sneakers</p>
+                <h2>Adidas Sneakers</h2>
+                <h4>UGX. 250,000</h4>
+                <div class="area">
+                    <input type="number" value="1">
+                    <!-- <select>
+                        <option>Select size</option>
+                        <option>Size 45-41</option>
+                        <option>Size 40-35</option>
+                        <option>Size 35-25</option>
+                        <option>Size 25-15</option>
+                    </select> -->
+                    <a href="cart.html" class="bttn">Add To Cart</a>
+                </div>
+                <h3>Product Details</h3>
+                <!-- <i class="fas fa-gem"></i> -->
+                <p>Give your gym outfit a style upgrade with the Grey Adidas
+                    Gym Sneakers. Team them with your gym vest and shorts for your
+                    morning gym session and for a hang-out with your friends.</p>
+            </div>
+        </div>
+    </div>
+    <!--------products------>
+    <div class="products">
+        <h2 class="title">Related Products</h2>
+        <div class="feat-row">
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/sneakers_converse.6.jpeg" alt=""></a>
+                <h4>Jean Converse</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 300,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only//sneakers-puma.12.jpeg" alt=""></a>
+                <h4>White Pumas</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 200,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/sneakers_vans.5.jpeg" alt=""></a>
+                <h4>Blue Vans</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 200,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/crocs.1.jpeg" alt=""></a>
+                <h4>Black Crocs</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+        </div>
+    </div>
+    <!----------------------- FOOTER ------------------->
+    <footer>
+        <div class="footercol">
+            <div class="footrow2 side" >
+                <h3>Follow Us </h3>
+                <p>On our social media platforms for more</p>
+                <div class="social">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footrow2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="pngs/logo.png" alt="">
+                    </a>
+                </div>
+                <p>Our Purpose is To Sustainably make Basic Essentials Accessible to Many</p>
+            </div>
+            <div class="footrow2 ">
+                <h2>Menu</h2>
+                <ul class="foot_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footrow2">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footrow3">Copyright © 2025 All Rights Reserved | Template by PURGE</div>
+    </footer>
+    <!-------js for toggle menu------->
+    <script>
+        var Menuitems = document.getElementById("Menuitems")
+
+        Menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "180px";
+            }
+            else {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+    <!-----js for product gallery------->
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("SmallImg");
+        SmallImg[0].onclick = function () {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function () {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function () {
+            ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function () {
+            ProductImg.src = SmallImg[3].src;
+        }
+    </script>
+</body>
+
+</html>

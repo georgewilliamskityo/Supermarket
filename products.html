@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Costco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-2/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="pngs/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="pngs/logo.png" alt=""></a>
+        </div>
+        <ul id="Menuitems" style="max-height: 0px;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fas fa-user unshow"></i></a></li>
+            <li><a href="cart.html"><i class="fas fa-cart-shopping unshow"></i></a></li>
+        </ul>
+        <div class="grpic">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i class="fas fa-bars menu-icon" onclick="menutoggle()"></i>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="products">
+        <div class="row-head">
+            <div class="rw-hd">
+                <h2><i class="fas fa-table-cells"></i> All Products</h2>
+            </div>
+            <div class="filter">
+                <i class="fas fa-filter"></i>
+                <select name="fetchval" id="fetchval">
+                    <option value="" disabled="" selected="">Select filter</option>
+                    <option value="sports">Sneakers</option>
+                    <option value="students">Crocs</option>
+                    <option value="facilities">Bags</option>
+                    <option value="clubs">Jumpers</option>
+                    <option value="bracelets">Bracelets</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="feat-row">
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/crocs.1.jpeg" alt=""></a>
+                <h4>Black Crocs</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/sneakers_converse.6.jpeg" alt=""></a>
+                <h4>Jean Converse</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 300,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/paracord_rock.jpeg" alt=""></a>
+                <h4>Kraken Bracelet</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 20,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/bag_grey.2.jpeg" alt=""></a>
+                <h4>Blue Bagpack</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only//sneakers-puma.12.jpeg" alt=""></a>
+                <h4>White Pumas</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 200,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/paracord.11.jpeg" alt=""></a>
+                <h4>Cord Bracelet</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 20,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/paracord_Kruger weave.jpeg" alt=""></a>
+                <h4>Madmax Bracelet</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 20,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/jumper.9.jpeg" alt=""></a>
+                <h4>Cropped Jumper</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 150,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/bag.6.jpeg" alt=""></a>
+                <h4>Blue Mini-bag</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/jumper.10.jpeg" alt=""></a>
+                <h4>Grey Hoodie</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 150,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/sneakers_vans.5.jpeg" alt=""></a>
+                <h4>Blue Vans</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 250,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/bag_black.2.jpeg" alt=""></a>
+                <h4>Black Bagpack</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+        </div>
+        <br>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!----------------------- FOOTER ------------------->
+    <footer>
+        <div class="footercol">
+            <div class="footrow2 side" >
+                <h3>Follow Us </h3>
+                <p>On our social media platforms for more</p>
+                <div class="social">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footrow2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="pngs/logo.png" alt="">
+                    </a>
+                </div>
+                <p>Our Purpose is To Sustainably make Basic Essentials Accessible to Many</p>
+            </div>
+            <div class="footrow2 ">
+                <h2>Menu</h2>
+                <ul class="foot_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footrow2">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footrow3">Copyright © 2025 All Rights Reserved | Template by PURGE</div>
+    </footer>
+    <!-------js for toggle menu------->
+    <script>
+        var Menuitems = document.getElementById("Menuitems")
+
+        Menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "180px";
+            }
+            else {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

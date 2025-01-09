@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Costco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-2/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="pngs/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="pngs/logo.png" alt=""></a>
+        </div>
+        <ul id="Menuitems" style="max-height: 0px;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fas fa-user"></i></a></li>
+            <li><a href="cart.html"><i class="fas fa-cart-shopping"></i></a></li>
+        </ul>
+        <div class="grpic">
+            <a href="#"><i class="fas fa-user unshow"></i></a>
+            <a href="cart.html"><i class="fas fa-cart-shopping unshow"></i></a>
+            <i class="fas fa-bars menu-icon" onclick="menutoggle()"></i>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <!--------------------------------- CART ------------------------------->
+    <div class="cart-page">
+        <table>
+            <thead class="thead">
+                <tr>
+                    <th><span></span>Product</th>
+                    <th>Quantity</th>
+                    <th>Sub-total <span></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="jpegs_only/sneakers_converse.1.jpeg">
+                            <div>
+                                <h4>Converse Sneakers</h4>
+                                <h6>UGX. 200,000</h6>
+                                <a href="#"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="counter"><input type="number" value="1"></div>
+                    </td>
+                    <td>UGX. 200,000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="jpegs_only/bag.3.jpeg">
+                            <div>
+                                <h4>Mini Bagpack</h4>
+                                <h6>UGX. 100,000</h6>
+                                <a href="#"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="counter"><input type="number" value="1"></div>
+                    </td>
+                    <td>UGX. 100,000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="jpegs_only/paracord.7.jpeg">
+                            <div>
+                                <h4>Cord Bracelet</h4>
+                                <h6>UGX. 20,000</h6>
+                                <a href="#"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="counter"><input type="number" value="1"></div>
+                    </td>
+                    <td>UGX. 20,000</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total">
+            <table></table>
+            <table></table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>UGX. 320,000</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>UGX. 10,000</td>
+                    </tr>
+                    <tr class="sum">
+                        <td>Total</td>
+                        <td>UGX. 330,000</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#" class="bttn">Checkout</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!----------------------- FOOTER ------------------->
+    <footer>
+        <div class="footercol">
+            <div class="footrow2 side" >
+                <h3>Follow Us </h3>
+                <p>On our social media platforms for more</p>
+                <div class="social">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footrow2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="pngs/logo.png" alt="">
+                    </a>
+                </div>
+                <p>Our Purpose is To Sustainably make Basic Essentials Accessible to Many</p>
+            </div>
+            <div class="footrow2 ">
+                <h2>Menu</h2>
+                <ul class="foot_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footrow2">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footrow3">Copyright © 2025 All Rights Reserved | Template by PURGE</div>
+    </footer>
+    <!-------js for toggle menu------->
+    <script>
+        var Menuitems = document.getElementById("Menuitems")
+
+        Menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "180px";
+            }
+            else {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

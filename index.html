@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Costco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-2/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="pngs/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="pngs/logo.png" alt=""></a>
+        </div>
+        <ul id="Menuitems" style="max-height: 0px;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fas fa-user unshow"></i></a></li>
+            <li><a href="cart.html"><i class="fas fa-cart-shopping unshow"></i></a></li>
+        </ul>
+        <div class="grpic">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i class="fas fa-bars menu-icon" onclick="menutoggle()"></i>
+        </div>
+    </nav>
+    <!-------------------------- LANDING -------------------------->
+    <div class="landing">
+        <div class="landcol">
+            <h1>Get Yourself Out There<br> In A New Style!</h1>
+            <p>Success isn't always about greatness, it's about consistency.
+                Consistent hard work gains success, from which greatness will come.</p>
+            <br>
+            <a href="#" class="bttn">Explore</a>
+        </div>
+        <div class="landcol">
+            <img src="pngs/shopping.png" alt="">
+        </div>
+    </div>
+    <br>
+    <br>
+    <!------------------------------ FEATURED ------------------------------>
+    <div class="feat">
+        <div class="feat-row">
+            <div class="col-3">
+                <img src="jpegs_only/sneakers_puma.legs.jpeg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="jpegs_only/bags_carry.jpeg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="jpegs_only/crocs.legs.jpeg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="jpegs_only/paracord.1.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!------------------------------ FEATURED PRODUCTS ------------------------------>
+    <div class="feat">
+        <h2 class="title">Featured Products</h2>
+        <div class="feat-row">
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/jumper.5.jpeg" alt=""></a>
+                <h4>Grey Jumper</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 150,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/sneakers_puma.3.jpeg" alt=""></a>
+                <h4>Black Pumas</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 200,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/paracord_rock.jpeg" alt=""></a>
+                <h4>Cord Bracelet</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 20,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/bag_grey.2.jpeg" alt=""></a>
+                <h4>Grey Mini-bagpack</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--------------------- OFFER --------------------->
+    <div class="offer">
+        <div class="offer-row">
+            <div class="col-2">
+                <img src="pngs/airpods.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available at Costco</p>
+                <h1>Caviar Airpods</h1>
+                <p> The Airpods feature a home HD Dolby sound
+                    with smart touch and noise cancelling, so that there
+                    is completely no background noise.</p>
+                <br>
+                <a href="#" class="bttn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!------------------------------ LATEST PRODUCTS ------------------------------>
+    <div class="feat">
+        <h2 class="title">Latest Products</h2>
+        <div class="feat-row">
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/sneaker_nike.5.jpeg" alt=""></a>
+                <h4>Air Jordans</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 400,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/jumper-white.1.jpeg" alt=""></a>
+                <h4>White Jumper</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 150,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/paracord_Kruger weave.jpeg" alt=""></a>
+                <h4>Cord Bracelet</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>UGX. 20,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/bag.8.jpeg" alt=""></a>
+                <h4>Black Mini-bagpack</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/paracord_men1.jpeg" alt=""></a>
+                <h4>Cord Bracelet</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 20,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/bag_black.2.jpeg" alt=""></a>
+                <h4>Grey Mini-bagpack</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/sneakers_vans.3.jpeg" alt=""></a>
+                <h4>Blue Vans</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 250,000</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="jpegs_only/crocs.1.jpeg" alt=""></a>
+                <h4>Black Crocs</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>UGX. 100,000</p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <!------------------------------------ TESTMONIALS ------------------------------------>
+    <div class="testimonial">
+        <div class="test-row">
+            <div class="col-3">
+                <div class="quote">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p>I got all my recent stock from this website.
+                    I love their ease of work....of which they still connect you to delivery agents! Now that's amazing.
+                    Thank you Thrive market.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <img src="jpegs_only/portrait_woman.1.jpeg" alt="">
+                <h3>Victoria Noella</h3>
+            </div>
+            <div class="col-3">
+                <div class="quote">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p>I am genuinely thankful for their featured products, they helped me find things
+                    I couldn't find on my own. Keep it up Thrive market. </p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <img src="jpegs_only/portrait_woman.4.jpeg" alt="">
+                <h3>Marbel Julie</h3>
+            </div>
+            <div class="col-3">
+                <div class="quote">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p>With the fast growing flood of online markets on the internet.
+                    I'm thankful for this one.....it has a website and an app, which are all great and user
+                    friendly.
+                    Thumbs Up!</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <img src="jpegs_only/portrait_man.2.jpeg" alt="">
+                <h3>Sean Parker</h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-------------------------------- BRANDS -----------------------------------
+     <div class="brand">
+        <div class="brand-row">
+            <div class="col-5">
+                <img src="pngs/vans.2.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="pngs/converse.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="pngs/adidas.1.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="pngs/vans.2.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="pngs/converse.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="pngs/adidas.1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!----------------------- FOOTER ------------------->
+    <footer>
+        <div class="footercol">
+            <div class="footrow2 side">
+                <h3>Follow Us </h3>
+                <p>On our social media platforms for more</p>
+                <div class="social">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footrow2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="pngs/logo.png" alt="">
+                    </a>
+                </div>
+                <p>Our Purpose is To Sustainably make Basic Essentials Accessible to Many</p>
+            </div>
+            <div class="footrow2 ">
+                <h2>Menu</h2>
+                <ul class="foot_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footrow2">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footrow3">Copyright © 2025 All Rights Reserved | Template by PURGE</div>
+    </footer>
+    <!-------js for toggle menu------->
+    <script>
+        var Menuitems = document.getElementById("Menuitems")
+
+        Menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "180px";
+            }
+            else {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
